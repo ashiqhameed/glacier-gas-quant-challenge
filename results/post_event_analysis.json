@@ -1,0 +1,42 @@
+{
+  "round1_uploads": {
+    "upload1_teammate_model": {
+      "balanced_accuracy": 0.476,
+      "mcc": -0.053
+    },
+    "upload2_open_features_v4": {
+      "balanced_accuracy": 0.477,
+      "mcc": -0.045
+    }
+  },
+  "round1_model_with_true_features": {
+    "balanced_accuracy": 0.576,
+    "mcc": 0.152
+  },
+  "round3_book_in_crash": {
+    "sharpe": 5.8443,
+    "max_drawdown": -0.0223,
+    "days_under_water": 21.0,
+    "total_cost": 0.0033,
+    "total_return": 0.1627,
+    "turnover_per_day": 0.0677,
+    "avg_abs_position": 0.2239,
+    "trades": 16.0,
+    "buy_and_hold_return": -0.449,
+    "right_direction_days": 0.6327
+  },
+  "autocorrelation_next_day": {
+    "calm_days_1_850": {
+      "lag0": -0.106,
+      "lag1": 0.13,
+      "lag2": -0.068,
+      "lag3": 0.036
+    },
+    "crash_days_851_899": {
+      "lag0": 0.049,
+      "lag1": -0.093,
+      "lag2": -0.059,
+      "lag3": 0.273
+    }
+  }
+}

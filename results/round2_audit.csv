@@ -1,0 +1,7 @@
+check,value
+rebuilt close inside the day's low-high range,100% of hidden days
+rsi_14 recomputed from rebuilt closes,max abs error 0.00499
+volatility_20 recomputed from rebuilt closes,max abs error 0.00005
+order_flow recomputed from rebuilt closes,max abs error 0.00302
+momentum_5 recomputed from rebuilt closes,max abs error 0.00007
+sma_30 recomputed from rebuilt closes,max abs error 0.00007

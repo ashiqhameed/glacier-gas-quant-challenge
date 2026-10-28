@@ -1,0 +1,13 @@
+{
+  "order_flow_vs_close_location_known_max_err": 4.999999999977245e-05,
+  "order_flow_vs_open_location_hidden_max_err": 4.693877550809855e-05,
+  "volatility_vs_open_swapped_hidden_max_err": 7.868881864785474e-06,
+  "rsi_inversion_mean_abs_error_on_known_windows": {
+    "300": 2.8392065206901407e-05,
+    "500": 1.0568272683144642e-05,
+    "700": 1.066884984254557e-05,
+    "750": 1.9248879876840874e-05
+  },
+  "rsi_rebuilt_close_inside_day_range_hidden": 0.14,
+  "true_close_inside_day_range_known": 1.0
+}

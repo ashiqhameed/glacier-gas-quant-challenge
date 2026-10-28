@@ -1,0 +1,7 @@
+variant,sharpe,max_drawdown,days_under_water,total_cost,total_return,turnover_per_day,avg_abs_position,trades
+Trend only,0.4769,-0.196,409,0.0379,0.1013,0.0691,0.3889,153
+"First hedged blend (50/50, no guard, no band)",0.5608,-0.1239,342,0.2708,0.1292,0.4932,0.4281,546
+Submitted v4: 70% trend / 30% timing + all controls,0.6358,-0.1234,409,0.0719,0.1108,0.1311,0.2941,285
+v4 without the drawdown guard,0.55,-0.1765,409,0.1192,0.1199,0.2172,0.4063,384
+v4 balanced 50/50,0.7395,-0.089,386,0.1566,0.1274,0.2853,0.2838,414
+Timing-led 30/70,0.7292,-0.1059,364,0.2299,0.1273,0.4187,0.3034,454
