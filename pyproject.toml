@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glacier-quant"
+version = "1.0.0"
+description = "Regime-aware direction prediction and risk-managed trading through a flash crash (Abhiyantriki 2026 quant challenge, 2nd prize)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Ashiq Hameed" },
+  { name = "Abhishek Jain" },
+  { name = "Shaunak Gulhane" },
+]
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "xgboost>=2.0",
+  "lightgbm>=4.0",
+  "matplotlib>=3.8",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
